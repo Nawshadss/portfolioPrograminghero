@@ -15,9 +15,7 @@ nav {
 .promarycolor {
   color: #fd6e0a;
 }
-/* ul > li {
-  display: flex;
-} */
+
 .webTitle {
   color: var(--Dark-01, #181818);
   font-size: 45px;
@@ -49,3 +47,46 @@ nav a {
 
   font-weight: 700;
 }
+/* nav design ends */
+
+/* header designg start */
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-position: right, bottom;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: none;
+  margin: none;
+}
+.picture {
+  padding: none;
+}
+
+.bannner-greeting {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 10px;
+  padding: none;
+
+  margin: none;
+  line-height: none;
+}
+.name {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 10px;
+}
+p {
+  color: #181818;
+}
+/* header designg ends*/
